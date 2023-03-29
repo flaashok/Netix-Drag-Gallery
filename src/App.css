@@ -1,0 +1,39 @@
+.App{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.App div div{
+  border: solid 1px #e1e1e1;
+  padding: 20px;
+  border-radius: 20px;
+}
+.App div span{
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.App div img{
+  max-height: 450px;
+  height: 100%;
+  width: 100%;
+}
+.popupMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(50px);
+  background: rgba(0,0,0,0.5);
+  align-items: center;
+  justify-content: center;
+}
+.popupMenu .popImg{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
